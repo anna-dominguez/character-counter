@@ -1,7 +1,6 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { ThemeProvider } from 'next-themes';
 
 const ThemeProviderNoSSR = dynamic(
 	() => import('next-themes').then((mod) => mod.ThemeProvider),

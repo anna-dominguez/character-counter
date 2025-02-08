@@ -1,13 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 import CardInfo from '@/components/CardInfo';
 import Header from '@/components/Header';
 import Title from '@/components/Title';
 import Textarea from '@/components/Textarea';
 import CheckBoxs from '@/components/CheckBoxs';
-import Image from 'next/image';
 import LetterDensity from '@/components/LetterDensity';
 
 export default function Home() {
